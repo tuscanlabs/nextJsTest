@@ -2,8 +2,8 @@ import React from 'react';
 import {useQuery} from 'react-query'; 
 import BasicTable from './BasicTable'
 
-  const fetchUsers = async () => { 
-    const res = await fetch('http://localhost:3000/api/users');
+  const fetchUsers = async () => {  
+    const res = await fetch('/api/users');
     return res.json();
 }
 
